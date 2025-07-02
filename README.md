@@ -1,3 +1,6 @@
+Created By: SUBHA GOLDAR
+Subgold10@gmail.com
+
 # ShoppyGlobe Backend
 
 A powerful backend system for an e-commerce platform, developed using Node.js, Express.js, and MongoDB. It supports product management, user authentication, and cart functionality, making it easy to integrate with any frontend stack.
