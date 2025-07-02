@@ -1,0 +1,30 @@
+{
+  "name": "shoppyglobe-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node -e 'import(\"./utils/seedProducts.js\").then(module => module.default())'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "ShoppyGlobe is a backend API for an e-commerce platform, developed with Node.js, Express.js, and MongoDB. It provides core functionalities such as product catalog management, user registration and login, and a secure shopping cart system. The API is designed for reliability and ease of integration with frontend applications.",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
